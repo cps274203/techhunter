@@ -1,0 +1,2 @@
+Packet loss is simulated with: 
+iptables -A INPUT -m statistic --mode random --probability 0.1 -j DROP
